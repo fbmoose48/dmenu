@@ -1,5 +1,9 @@
 # Custom build of dmenu
 
+dmenu - dynamic menu
+====================
+dmenu is an efficient dynamic menu for X.
+
 ## patches
 
 + dmenu-border-4.9
@@ -16,7 +20,7 @@ git clone https://github.com/fbmooose48/dmenu
 cd dmenu
 sudo make install
 ```
-
+## Requirements
+------------
+In order to build dmenu you need the Xlib header files.
 `make` is required to build.
-`fontconfig` is required for the default build, since it asks `fontconfig` for your system monospace font.  
-`libX11` and `libXft` are required as well.
