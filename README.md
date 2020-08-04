@@ -1,6 +1,4 @@
-# Custom build of dmenu
-
-dmenu - dynamic menu
+# Custom build of dmenu - dynamic menu
 ====================
 dmenu is an efficient dynamic menu for X.
 
@@ -21,6 +19,6 @@ cd dmenu
 sudo make install
 ```
 ## Requirements
-------------
+
 In order to build dmenu you need the Xlib header files.
 `make` is required to build.
