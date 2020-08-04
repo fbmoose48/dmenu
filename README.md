@@ -13,7 +13,7 @@
 
 ```
 git clone https://github.com/fbmooose48/dmenu
-cd st
+cd dmenu
 sudo make install
 ```
 
